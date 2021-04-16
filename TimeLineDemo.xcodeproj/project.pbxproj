@@ -16,6 +16,7 @@
 		004D4A0026293701004B5E9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 004D49FF26293701004B5E9C /* main.m */; };
 		004D4A0A26293702004B5E9C /* TimeLineDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004D4A0926293702004B5E9C /* TimeLineDemoTests.m */; };
 		004D4A1526293702004B5E9C /* TimeLineDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 004D4A1426293702004B5E9C /* TimeLineDemoUITests.m */; };
+		004D4A27262937E4004B5E9C /* CollectionTimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 004D4A25262937E4004B5E9C /* CollectionTimeCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		004D4A1026293702004B5E9C /* TimeLineDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeLineDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		004D4A1426293702004B5E9C /* TimeLineDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeLineDemoUITests.m; sourceTree = "<group>"; };
 		004D4A1626293702004B5E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004D4A25262937E4004B5E9C /* CollectionTimeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionTimeCell.m; sourceTree = "<group>"; };
+		004D4A26262937E4004B5E9C /* CollectionTimeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionTimeCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				004D49F1262936FC004B5E9C /* SceneDelegate.m */,
 				004D49F3262936FC004B5E9C /* ViewController.h */,
 				004D49F4262936FC004B5E9C /* ViewController.m */,
+				004D4A26262937E4004B5E9C /* CollectionTimeCell.h */,
+				004D4A25262937E4004B5E9C /* CollectionTimeCell.m */,
 				004D49F6262936FD004B5E9C /* Main.storyboard */,
 				004D49F926293701004B5E9C /* Assets.xcassets */,
 				004D49FB26293701004B5E9C /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 				004D49EF262936FC004B5E9C /* AppDelegate.m in Sources */,
 				004D4A0026293701004B5E9C /* main.m in Sources */,
 				004D49F2262936FC004B5E9C /* SceneDelegate.m in Sources */,
+				004D4A27262937E4004B5E9C /* CollectionTimeCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
